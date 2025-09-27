@@ -1,5 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+import { BrowserR          <img 
+            src="/images/lifeline-logo.svg" 
+            alt="LifeLine Logo" 
+            className="logo-icon-img"
+            style={{
+              height: '40px',
+              width: 'auto',
+              marginRight: '8px'
+            }}
+          />uter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import HomePage from './HomePage';
 import CoursesList from './CoursesList';
@@ -42,11 +51,7 @@ function NavBar() {
       <div className="nav-container">
       <div className="nav-brand">
         <Link to="/" className="nav-logo">
-          <img 
-            src="/images/lifeline-logo.svg" 
-            alt="LifeLine Logo" 
-            className="logo-icon-img"
-          />
+          <span className="logo-icon">�️</span>
           <span className="logo-text">LifeLine</span>
         </Link>
       </div>        <div className="nav-center">

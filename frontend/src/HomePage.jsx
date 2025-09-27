@@ -403,7 +403,19 @@ const HomePage = () => {
           <div className="footer-content">
             <div className="footer-section">
               <div className="footer-brand">
-                <h3>LifeLine</h3>
+                <div className="footer-logo">
+                  <img 
+                    src="/images/lifeline-logo.svg" 
+                    alt="LifeLine Logo" 
+                    className="footer-logo-img"
+                    style={{
+                      height: '100px',
+                      width: 'auto',
+                      marginBottom: '15px'
+                    }}
+                  />
+                  <h3>LifeLine</h3>
+                </div>
                 <p>Empowering individuals and organizations with comprehensive cybersecurity awareness and training solutions for the digital age.</p>
                 <div className="social-links">
                   <a href="#" className="social-link">
